@@ -6,8 +6,8 @@ class Xnote < Formula
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/xiaofeizhao/xnote/releases/download/v0.1.0/xnote_0.1.0_Darwin_amd64.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-    sha256 "2d063230ec0f0f638942433e1d28873d8bdf69547b0c4187084f12ccd31dbfeb"
+    url "https://github.com/xiaofeizhao/xnote/releases/download/v0.1.0/xnote_0.1.0_Darwin_amd64.tar.gz"
+    sha256 "6b7612ba70db72a69f2ed5d8ff114718b8cd5ac7542f59d6038e0f4db5fdbc86"
   elsif OS.linux?
   end
 
