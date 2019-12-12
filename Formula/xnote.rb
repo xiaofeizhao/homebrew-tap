@@ -7,7 +7,7 @@ class Xnote < Formula
 
   if OS.mac?
     url "https://github.com/xiaofeizhao/xnote/releases/download/v0.1.0/xnote_0.1.0_Darwin_amd64.tar.gz"
-    sha256 "6b7612ba70db72a69f2ed5d8ff114718b8cd5ac7542f59d6038e0f4db5fdbc86"
+    sha256 "00b83a96c106462a9c09787ca576c4925ea2d31092a370de3d30d55637ddd8d8"
   elsif OS.linux?
   end
 
